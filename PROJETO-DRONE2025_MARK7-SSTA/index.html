@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CONTROLE-DRONE-MARK5_SSTA</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 class="titulo">DRONE-MARK7</h1>
+
+    <div class="div_ligar_desligar_drone">
+      <button id="botaoLigar" class="botaoLigar">
+        <h1>LIGAR MOTORES</h1>
+      </button>
+      <button id="botaoDesligar" class="botaoLigar">
+        <h1>DESLIGAR MOTORES</h1>
+      </button>
+    </div>
+
+    <div class="div-botoesSubirDescer">
+       <div class="div_agrupar_botoes_subir_descer">
+        <button id="botaoSubir" class="botao_subir"></button>
+        <button id="botaoDescer" class="botao_descer"></button>
+      </div>
+
+      <div class="div_agrupar_botoes_esquerda_direita">
+        <button id="botaoVirarEsquerda" class="botao_virar_esquerda"></button>
+        <button id="botaoVirarDireita" class="botao_virar_direita"></button>
+      </div>
+      
+    </div>
+
+    <div class="div_funcoes_especiais">
+      <button id="botaoSoltarProjetil" class="butao_soltar_projetil"> <img class="imagemmissil" src="data:image/png;base64,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"> </button>
+      <button id="botaoVoltarCasa" class="butao_voltar_casa"> <img class="imagemcasa" src="casa.png"> </button>
+      <button id="botaoAtivarModoCabeca" class="butao_ativar_headControl"> <img class="imagemcabeca" src="cabeca.png"> </button>    
+    </div>
+
+    <script src="envio.js"></script>
+  </body>
+</html>

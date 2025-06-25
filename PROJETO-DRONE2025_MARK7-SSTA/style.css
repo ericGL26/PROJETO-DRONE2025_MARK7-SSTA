@@ -1,0 +1,153 @@
+body {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  justify-content: center;
+}
+
+.titulo {
+ color: #61BbD3;
+ font-family: Times 'Times New Roman', Times, serif Roman,;
+}
+
+.div-botoesSubirDescer {
+  display: flex;
+  background-color: rgb(161, 151, 151);
+  height: 600px;
+  width: 1000px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  border-radius: 100px;
+}
+
+.div_agrupar_botoes_esquerda_direita {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  background-color: rgb(161, 151, 151);
+  overflow: hidden;
+  align-items: center;
+}
+
+.botao_virar_esquerda {
+  height: 250px;
+  width: 250px;
+  background-color: #61BbD3;
+  border-top-left-radius: 100px;   /* arredondado do lado esquerdo */
+  border-bottom-left-radius: 100px;
+}
+
+.botao_virar_direita {
+  height: 250px;
+  width: 250px;
+  background-color: #61BbD3;
+  border-top-right-radius: 100px;  /* arredondado do lado direito */
+  border-bottom-right-radius: 100px;
+}
+
+
+
+.div_agrupar_botoes_subir_descer {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  background-color: rgb(161, 151, 151);
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+
+.botao_subir {
+   height: 200px;
+  width: 250px;
+  background-color: #61BbD3;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.botao_descer {
+  height: 200px;
+  width: 250px;
+  background-color: #61BbD3;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+.div_funcoes_especiais {
+  height: 700px;
+  width: 500px;
+  display: flex;
+  background-color: transparent;
+  position: absolute;
+  right: 550px;
+  bottom: 700px;
+  flex-direction: column;
+}
+
+.butao_soltar_projetil {
+  height: 300px;
+  width: 300px;
+  background-color: #4ed1f5;
+}
+
+.butao_voltar_casa {
+  height: 300px;
+  width: 300px;
+  background-color: #4ed1f5;
+}
+
+.butao_ativar_headControl {
+  height: 300px;
+  width: 300px;
+  background-color: #4ed1f5;
+
+}
+
+.imagemmissil {
+  height: auto;
+  width: auto;
+  margin-left: 50px;
+}
+
+.imagemcasa {
+  height: 250px;
+  width: 250px;
+  margin-left: 40px;
+}
+
+.imagemcabeca {
+  height: 190px;
+  width: 200px;
+  margin-left: 50px;
+}
+
+.div_ligar_desligar_drone {
+  display: flex;
+  height: 500px;
+  width: 250px;
+  background-color: #4ed1f5;
+  position: absolute;
+  margin-left: 700px;
+  bottom: 890px; 
+  flex-direction: column;
+}
+
+.botaoLigar {
+  height: 250px;
+  width: 250px;
+  background-color: #4ed1f5;
+}
+
+.botaoDesligar {
+  height: 250px;
+  width: 250px;
+  background-color: #4ed1f5;
+}
